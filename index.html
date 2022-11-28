@@ -1,0 +1,455 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.9.0/css/all.css"
+      integrity="sha384-i1LQnF23gykqWXg6jxC2ZbCbUMxyw5gLZY6UiUS98LYV5unm8GWmfkIS6jqJfb4E"
+      crossorigin="anonymous" />
+    <link rel="stylesheet" href="./assets/css/style.css" type="text/css" />
+    <title>Youtube clone</title>
+  </head>
+  <body>
+    <!-- NAVIGATION -->
+    <header>
+      <nav class="nav-main">
+        <ul class="na--list">
+          <ul class="nav--left">
+            <li>
+              <a href="#"><i class="fas fa-bars"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img src="./assets/image/youtube-logo.png" alt="Youtube logo"
+              /></a>
+            </li>
+          </ul>
+
+          <ul class="nav--search">
+            <li>
+              <input
+                class="input-search"
+                type="text"
+                name="Search"
+                placeholder="Search" />
+              <button><i class="fas fa-search"></i></button>
+            </li>
+          </ul>
+
+          <ul class="nav--right">
+            <li>
+              <a href="#"><i class="fas fa-video"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-th"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-comment"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fas fa-bell"></i></a>
+            </li>
+            <li>
+              <a href="#"
+                ><img
+                  src="./assets/image/Pokemon Charizard, HD Png Download.png"
+                  alt="Pokemon Charizard"
+              /></a>
+            </li>
+          </ul>
+        </ul>
+      </nav>
+    </header>
+
+    <!-- VIDEO SECTION -->
+    <main>
+      <article>
+        <div class="video">
+          <iframe
+            width="560"
+            height="315"
+            src="https://www.youtube.com/embed/zGPS2BilrJI"
+            title="YouTube video player"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen></iframe>
+        </div>
+        <header>
+          <div class="video-stats">
+            <h1 class="video-title">
+              TUDO o que um DESENVOLVEDOR FRONT-END deve saber! | Getting
+              Started #23
+            </h1>
+            <p>3.384 visualizações Estreou em 8 de ago. de 2022</p>
+          </div>
+
+          <nav class="nav-video">
+            <a href="#"><i class="fas fa-thumbs-up"></i>335</a>
+            <a href="#"><i class="fas fa-thumbs-down"></i></a>
+            <a href="#"><i class="fas fa-share"></i>Compatilhar</a>
+            <a href="#"><i class="fas fa-list"></i>Salvar</a>
+            <a href="#"><i class="fas fa-ellipsis-h"></i></a>
+          </nav>
+        </header>
+
+        <section class="video-description">
+          <img
+            src="./assets/image/Pokemon Charizard, HD Png Download.png"
+            alt="Pokemon Charizard" />
+          <div class="video-creator">
+            <h2>DIO</h2>
+            <p class="published">Estreou em 8 de ago. de 2022</p>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi
+              similique quam, voluptates unde magnam sapiente id, dolores
+              quaerat aperiam exercitationem non nisi dolor quis veritatis ex
+              molestiae magni. Doloribus, doloremque!
+            </p>
+            <a href="#" class="showmore-btn">Mais</a>
+          </div>
+          <a href="#" class="subscribe-btn">Inscrever-se</a>
+        </section>
+
+        <!-- VIDEO COMENTS -->
+        <section class="video-comments">
+          <div class="comment__stats">
+            <p>29 comentários</p>
+            <a href="#"><i class="fas fa-align-left"></i>Ordenar por</a>
+          </div>
+
+          <div class="comment__box">
+            <a href="#" class="comment__display"
+              ><img
+                src="./assets/image/Pokemon Charizard, HD Png Download.png"
+                alt="Pokemon Charizard" />
+            </a>
+            <input type="text" placeholder="Adicione um comentário" />
+          </div>
+
+          <div class="comment">
+            <a href="#" class="comment__display"
+              ><img
+                src="./assets/image/Pokemon Charizard, HD Png Download.png"
+                alt="Pokemon Charizard"
+            /></a>
+          </div>
+          <div class="comment__details">
+            <h4 class="comment__author">Meiton Max <span>11 de ago</span></h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+              earum ut molestiae incidunt, voluptatum fugiat, iusto alias
+              ratione vitae ab exercitationem commodi officiis quam quis est
+              placeat explicabo necessitatibus quidem.
+            </p>
+            <div class="section__controls">
+              <a href="#"><i class="fas fa-thumbs-up"></i>123</a>
+              <a href="#"><i class="fas fa-thumbs-down"></i></a>
+              <a href="#">Responder</a>
+            </div>
+            <a href="#"
+              >3 Respostas<i class="fas fa-chevron-down chevron"></i
+            ></a>
+          </div>
+
+          <div class="comment">
+            <a href="#" class="comment__display"
+              ><img
+                src="./assets/image/Pokemon Charizard, HD Png Download.png"
+                alt="Pokemon Charizard"
+            /></a>
+          </div>
+          <div class="comment__details">
+            <h4 class="comment__author">Meiton Max <span>11 de ago</span></h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+              earum ut molestiae incidunt, voluptatum fugiat, iusto alias
+              ratione vitae ab exercitationem commodi officiis quam quis est
+              placeat explicabo necessitatibus quidem.
+            </p>
+            <div class="section__controls">
+              <a href="#"><i class="fas fa-thumbs-up"></i>123</a>
+              <a href="#"><i class="fas fa-thumbs-down"></i></a>
+              <a href="#">Responder</a>
+            </div>
+            <a href="#"
+              >3 Respostas<i class="fas fa-chevron-down chevron"></i
+            ></a>
+          </div>
+
+          <div class="comment">
+            <a href="#" class="comment__display"
+              ><img
+                src="./assets/image/Pokemon Charizard, HD Png Download.png"
+                alt="Pokemon Charizard"
+            /></a>
+          </div>
+          <div class="comment__details">
+            <h4 class="comment__author">Meiton Max <span>11 de ago</span></h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+              earum ut molestiae incidunt, voluptatum fugiat, iusto alias
+              ratione vitae ab exercitationem commodi officiis quam quis est
+              placeat explicabo necessitatibus quidem.
+            </p>
+            <div class="section__controls">
+              <a href="#"><i class="fas fa-thumbs-up"></i>123</a>
+              <a href="#"><i class="fas fa-thumbs-down"></i></a>
+              <a href="#">Responder</a>
+            </div>
+            <a href="#"
+              >3 Respostas<i class="fas fa-chevron-down chevron"></i
+            ></a>
+          </div>
+
+          <div class="comment">
+            <a href="#" class="comment__display"
+              ><img
+                src="./assets/image/Pokemon Charizard, HD Png Download.png"
+                alt="Pokemon Charizard"
+            /></a>
+          </div>
+          <div class="comment__details">
+            <h4 class="comment__author">Meiton Max <span>11 de ago</span></h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+              earum ut molestiae incidunt, voluptatum fugiat, iusto alias
+              ratione vitae ab exercitationem commodi officiis quam quis est
+              placeat explicabo necessitatibus quidem.
+            </p>
+            <div class="section__controls">
+              <a href="#"><i class="fas fa-thumbs-up"></i>123</a>
+              <a href="#"><i class="fas fa-thumbs-down"></i></a>
+              <a href="#">Responder</a>
+            </div>
+            <a href="#"
+              >3 Respostas<i class="fas fa-chevron-down chevron"></i
+            ></a>
+          </div>
+
+          <div class="comment">
+            <a href="#" class="comment__display"
+              ><img
+                src="./assets/image/Pokemon Charizard, HD Png Download.png"
+                alt="Pokemon Charizard"
+            /></a>
+          </div>
+          <div class="comment__details">
+            <h4 class="comment__author">Meiton Max <span>11 de ago</span></h4>
+            <p>
+              Lorem ipsum, dolor sit amet consectetur adipisicing elit. Minima
+              earum ut molestiae incidunt, voluptatum fugiat, iusto alias
+              ratione vitae ab exercitationem commodi officiis quam quis est
+              placeat explicabo necessitatibus quidem.
+            </p>
+            <div class="section__controls">
+              <a href="#"><i class="fas fa-thumbs-up"></i>123</a>
+              <a href="#"><i class="fas fa-thumbs-down"></i></a>
+              <a href="#">Responder</a>
+            </div>
+            <a href="#"
+              >3 Respostas<i class="fas fa-chevron-down chevron"></i
+            ></a>
+          </div>
+        </section>
+      </article>
+
+      <!-- VIDEO RECOMMENDATIONS -->
+      <aside>
+        <div class="video__controls">
+          <p>Próximo</p>
+          <div class="autoplay">
+            <i class="fas fa-toggle-on"></i>
+            <p>Reprodução automática</p>
+          </div>
+        </div>
+
+        <div class="video__container">
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-1.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-2.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-3.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-4.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-5.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-6.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-7.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-8.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-9.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-10.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-11.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-12.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-13.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+          <div class="class-box">
+            <img
+              src="./assets/image/thumbnail-14.jpg"
+              alt="Video thumbnail"
+              class="video-box__thumbnail" />
+            <h3>
+              Como conseguir um emprego no Big 4 - Amazon, Facebook, Google e
+              Microsoft' por Sean Lee
+            </h3>
+            <p>imtiana</p>
+            <p>969 visualizações</p>
+          </div>
+        </div>
+      </aside>
+    </main>
+  </body>
+</html>
